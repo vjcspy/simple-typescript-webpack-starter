@@ -1,13 +1,30 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
     "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "es6",
     "target": "es5",
-    "allowJs": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "noImplicitAny": false,
     "types": [
       "@types/lodash"
     ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compileOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
   }
 }

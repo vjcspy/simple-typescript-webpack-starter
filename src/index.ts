@@ -1,5 +1,13 @@
 import * as _ from "lodash";
+import {Subject} from "rxjs/Subject";
 
-const array = [1, 2, 3, 4, 5];
+const stream = new Subject();
 
-_.forEach(array, (i) => console.log(i));
+stream.subscribe((d) => console.log(d));
+
+const test = () => {
+    const array = [1, 2, 3, 4, 5];
+    _.forEach(array, (i) => stream.next(i));
+};
+
+test();
