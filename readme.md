@@ -1,4 +1,4 @@
-# Minimalist TypeScript webpack Starter
+# Simple TypeScript webpack Starter
 
 This is a bare minimum starter kit to get you going with your [TypeScript](https://www.typescriptlang.org/) and [webpack](https://webpack.js.org/) experiments.
 
@@ -13,14 +13,12 @@ All you need to get started is [Node.js](https://nodejs.org/) and [npm](https://
 Just download the source or clone this repository 
 
 ```
-git clone https://github.com/ailon/minimalist-typescript-webpack-starter.git .
+git clone git@github.com:vjcspy/simple-typescript-webpack-starter.git .
 ```
-
-(you may want to delete the `.git` directory to remove the association with this repo)
 
 Then install dependencies:
 ```
-npm install
+npm install or yarn install
 ```
 
 ## Run
@@ -31,7 +29,7 @@ npm start
 
 ## Edit
 
-Edit  `src/index.ts` and add other TypeScript files the way you see fit. Edit `src/assets/template.html` to change the HTML used by webpack.
+Edit  `src/index.ts` and add other TypeScript files the way you see fit. Edit `src/index.html` to change the HTML used by webpack.
 
 ## License
 
